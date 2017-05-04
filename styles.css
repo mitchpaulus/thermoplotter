@@ -1,0 +1,10 @@
+.line:hover {
+    stroke-width: 8;
+    cursor: pointer;
+}
+
+#figure {
+    display: block;
+    margin: 0 auto;
+}
+

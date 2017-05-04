@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+        <meta content="utf-8" http-equiv="encoding">
+        <script src="d3.v4.min.js"></script>
+        <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/knockout/3.4.2/knockout-min.js'></script> 
+
+        <link rel="stylesheet" href="styles.css" type="text/css">
+    </head>
+    <body>
+        <h1>This page is meant to serve as a place to create beautiful
+            thermodynamic plots for everyone, for free.</h1>
+        <input type="text" data-bind="textInput: inputText "/>
+        <label data-bind="text: inputText">  </label>
+        <svg id="figure">
+        </svg>
+    </body>
+    <script src="thermoplotter.js" type="text/javascript"></script>
+</html>
